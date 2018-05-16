@@ -1,0 +1,25 @@
+﻿Build started 30/04/2017 22:58:39.
+     1>Project "C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\MyEngine_Core\MyEngine_Core.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D GLEW_STATIC /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\Intermediates\\" /Fd"C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\Intermediates\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Main.cpp
+         Main.cpp
+     1>c:\users\raphe\documents\visual studio 2013\projects\myengine\myengine_core\src\maths\maths_functions.h(9): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\raphe\documents\visual studio 2013\projects\myengine\myengine_core\main.cpp(31): warning C4305: 'argument' : truncation from 'double' to 'const float'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\MyEngine_Core.exe" /INCREMENTAL /NOLOGO glfw3.lib glew32s.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\MyEngine_Core.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\MyEngine_Core.lib" /MACHINE:X86 "C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\Intermediates\Main.obj"
+         "C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\Intermediates\IndexBuffer.obj"
+         "C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\Intermediates\VertexArray.obj"
+         "C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\Intermediates\VertexBuffer.obj"
+         "C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\Intermediates\Renderer2dSimple.obj"
+         "C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\Intermediates\Shader.obj"
+         "C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\Intermediates\window.obj"
+         "C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\Intermediates\Matrix4.obj"
+         "C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\Intermediates\Vector2.obj"
+         "C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\Intermediates\Vector3.obj"
+         "C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\Intermediates\Vector4.obj"
+         MyEngine_Core.vcxproj -> C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\bin\Debug\MyEngine_Core.exe
+     1>Done Building Project "C:\Users\Raphe\documents\visual studio 2013\Projects\MyEngine\MyEngine_Core\MyEngine_Core.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:22.41
